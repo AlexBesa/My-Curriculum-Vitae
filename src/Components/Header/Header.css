@@ -1,0 +1,39 @@
+.header{
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: auto;
+    color: #abbbec;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+}
+.header-image{
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #2e344e;
+}
+.header-image-avatar{
+    height: 15em;
+    
+    vertical-align: middle;
+    border-radius: 30em;
+   
+    max-width: 70%;
+    border-radius: 50%;
+    border-style: 2px solid yellow;
+    
+}
+.header-menu{
+
+}
+.header-copyright{
+
+}
