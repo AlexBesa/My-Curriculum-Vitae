@@ -1,5 +1,5 @@
 .header{
-    /* width: 100%; */
+    width: 16rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,9 @@
     top: 0;
     left: 0;
     bottom: 0;
+    position: fixed;
+    background-color: #282c34;
+  color: whitesmoke;
 
 }
 .header-image{
@@ -21,19 +24,44 @@
     border-bottom: 1px solid #2e344e;
 }
 .header-image-avatar{
-    height: 15em;
-    
+    height: 10em;
     vertical-align: middle;
-    border-radius: 30em;
-   
-    max-width: 70%;
+    max-width: 100%;
     border-radius: 50%;
-    border-style: 2px solid yellow;
+    border: 0.4em solid#2e344e;
+    zoom: 1.2;
     
 }
 .header-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-left: 0;
 
 }
+.header-menu li {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width:auto;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.5em;
+    /* border: 1px solid white; */
+    margin-left: -1.1em;
+    
+}
+.header-menu li:hover {
+    background-color: #283470;
+}
 .header-copyright{
-
+    border-top: 1px solid #2e344e;
+    padding: 0.5em;
+    text-align: center;
 }

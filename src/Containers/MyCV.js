@@ -15,14 +15,14 @@ class MyCV extends Component{
         return(
             <div className='myCv'>
                 <Header/>
-                <Switch>
+                <Switch className='myCv-pages'>
                     <Route path='/'exact component={HomePage}/>
                     <Route path='/HomePage' component={HomePage}/>
                     <Route path='/AboutPage' component={AboutPage}/>
                     <Route path='/ContactPage' component={ContactPage}/>
                     <Route path='/PortofoliosPage' component={PortofoliosPage}/>
                     <Route path='/ResumePage' component={ResumePage}/> 
-                    
+
                 </Switch>
             </div>
         )
