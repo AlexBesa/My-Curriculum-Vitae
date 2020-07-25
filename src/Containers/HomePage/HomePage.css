@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Sacramento&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
+.homePage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: stretch;
+    margin: 0 15%;
+    height: 100vh;
+    width: 90%;
+    /* font-family: 'Concert One', cursive; */
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Muli', sans-serif;
+    font-size: 1em;
+
+}
+.homePage>h1{
+    padding: 1em;
+    text-align: center;
+}
+.homePage>h1>span{
+    font-size: 2em;
+    color: rgb(217, 245, 242);
+    text-align: center;
+}
+.homePage>p{
+    display: inline;
+    font-size: 1.2em;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    size: 3em;
+}
+.icons>a{
+    padding: 0.5em;
+    border: 1.2px solid whitesmoke;
+    border-radius: 50%;
+    margin:0.1em 1em;
+    color: whitesmoke;
+    width: max-content;
+}
+.icons>a:hover{
+    color: #282c34;
+    border: 1.2px solid #282c34;
+    transition: 0.6s;
+}
+/* .icons>svg{
+    size: 10px;
+} */
+.myName{
+	-webkit-animation:myName 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation:myName 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes myName {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes myName {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  

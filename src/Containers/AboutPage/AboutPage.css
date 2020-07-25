@@ -1,0 +1,120 @@
+.aboutPage{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-content: stretch; */
+    margin: 0 1%;
+    height: 100%;
+    width: 90%;
+}
+.aboutPage>h1{
+    display: flex;
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 1em;
+
+}
+.aboutPage-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutPage-image{
+    display: flex;
+    width: 25rem;
+    vertical-align: middle;
+    max-height: 100%;
+    cursor:pointer ;
+    transition: transform 450ms;
+    box-shadow: 7px 7px 20px rgba(238, 227, 227, 0.9);
+}
+.aboutPage-image:hover{
+    transform: scale(1.08);
+}
+.aboutPage-content-details{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5em;
+    padding: 0.5em 1em;
+}
+.aboutPage-content-details ul{
+    padding: 0;
+}
+.aboutPage-content-details ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.aboutPage-content-details ul li b{
+    min-width: 120px;
+    display: inline-block;
+    position: relative;
+    margin-right: 7px;
+}
+.aboutPage-content-details ul li b::after{
+    content: ' : ';
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+}
+.btn-pdf{
+	box-shadow:inset 0px 1px 0px 0px #2a8386;
+	background:linear-gradient(to bottom, #282c34 5%, #464e57 100%);
+	background-color:#282c34;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:whitesmoke;
+	font-family:Courier New;
+	font-size:18px;
+	font-weight:bold;
+	padding:8px 10px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+    text-align: center;
+}
+.btn-pdf:hover {
+	background:linear-gradient(to bottom, #282c34 5%, #2a8386 100%);
+	background-color:#464e57;
+}
+.btn-pdf:active {
+	position:relative;
+	top:1px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin:1em -1em;
+}
+.services-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#282c34 ;
+    margin: 2em 0;
+    padding: 1em 2em;
+    align-content: center;
+    width: 15em;
+    
+    
+    
+}
+.services-div img{
+    align-self: center;
+    width: 10em;
+    vertical-align: middle;
+    height: 10em;
+    border-radius: 70%;
+    border: 0.4em solid #2a8386;
+    cursor:pointer ;
+    transition: transform 0.3s;
+}
+.services-div img:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,54 @@
+.resumePage{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    margin: 1em auto;
+    height: 100vh;
+    width: 90%;
+   
+}
+.resumePage h1{
+    margin: 0 0.5em;
+    
+}
+.mySkills{
+    width: auto;
+    display: block;
+    
+    margin: .5em 1em;
+}
+.mySkills-progress{
+    display: flex;
+    flex-direction: column;
+}
+.mySkills-progress>h3{
+    
+    
+}
+.mySkills-progress-inner{
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+}
+.span-container{
+    display: block;
+    margin: 0 1em;
+    position: relative;
+    height: 0.5em;
+    background: #cbe1f7;
+    width: 100%;
+    border-radius: 0.2em;
+    
+    
+}
+.span-active{
+    position: absolute;
+    height: 0.5em;
+    background: #13487c;
+    width: 90%;
+    border-radius: 0.2em;
+    
+}

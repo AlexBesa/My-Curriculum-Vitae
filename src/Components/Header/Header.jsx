@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 import { withRouter } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends React.Component {
     
@@ -27,7 +29,7 @@ class Header extends React.Component {
                         className='header-image-avatar'
                         src={require('../Images/avatar.jpg')}
                         alt="avatar"
-
+                        onClick={this.handleHomeClick}
                     />
                 </div>
                 <ul className='header-menu'>
@@ -38,7 +40,12 @@ class Header extends React.Component {
                     <li onClick={this.handleContact}>CONTACT</li>
 
                 </ul>
-                <p className='header-copyright'>Made with <span>LOVE</span> by Alexandru Besa</p>
+                <p className='header-copyright'>Made with <span><FontAwesomeIcon 
+                            icon={faHeart}
+                            fixedWidth 
+                            size="lg"
+                            color='red'
+                        /></span> by Alexandru Besa</p>
             </div>
         )
     }
