@@ -4,11 +4,11 @@
     flex-direction: column;
     align-content: center;
     margin: 1em auto;
-    height: 100vh;
+    height: auto;
     width: 90%;
    
 }
-.resumePage h1{
+.resumePage>div:nth-child(1) > h1{
     margin: 0 0.5em;
     
 }
@@ -22,10 +22,10 @@
     display: flex;
     flex-direction: column;
 }
-.mySkills-progress>h3{
+/* .mySkills-progress>h3{
     
     
-}
+} */
 .mySkills-progress-inner{
     position: relative;
     display: flex;
@@ -47,8 +47,50 @@
 .span-active{
     position: absolute;
     height: 0.5em;
-    background: #13487c;
-    width: 90%;
+    background: #4e96dd;
+    /* width: 90%; */
     border-radius: 0.2em;
     
+}
+.span-html{
+    width: 90%;
+}
+.span-css{
+    width: 85%;
+}
+.span-js{
+    width: 80%;
+}
+.span-react{
+    width: 70%;
+}
+.myResume{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 0.5em;
+}
+.myResume-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+.myResume-year{
+    align-self: flex-start;
+    /* width: 20%; */
+}
+.myResume-details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+    max-width: 45em;
+}
+.myResume-details>h3{
+    color: #4e96dd;
+    text-emphasis: bold;
+}
+.myResume-details>p{
+    margin: 0;
+    padding: 0.4em 0;
 }

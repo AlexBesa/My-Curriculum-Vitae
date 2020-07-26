@@ -15,7 +15,7 @@
     bottom: 0; 
     background-color: #282c34;
     color: whitesmoke;
-    border-right: 3px solid #2e344e;
+    border-right: 1px solid #2a8386;
 }
 .header-image{
     padding: 20px 0;
@@ -29,7 +29,7 @@
     vertical-align: middle;
     max-width: 100%;
     border-radius: 50%;
-    border: 0.4em solid #2a8386;
+    border: 3px solid #2a8386;
     zoom: 1.2;
     cursor:pointer ;
      transition: transform 450ms;

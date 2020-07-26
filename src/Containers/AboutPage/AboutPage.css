@@ -36,7 +36,8 @@
     display: flex;
     flex-direction: column;
     margin-right: 5em;
-    padding: 0.5em 1em;
+    padding: 0.1em 1em;
+    max-width: 25em;
 }
 .aboutPage-content-details ul{
     padding: 0;
@@ -111,7 +112,7 @@
     vertical-align: middle;
     height: 10em;
     border-radius: 70%;
-    border: 0.4em solid #2a8386;
+    border: 4px solid #2a8386;
     cursor:pointer ;
     transition: transform 0.3s;
 }

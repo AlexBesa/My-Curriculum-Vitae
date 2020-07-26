@@ -15,8 +15,9 @@ class AboutPage extends React.Component {
                     </div>
                     <div className='aboutPage-content-details'>
                         <h3>My name is Alexandru Besa</h3>
-                        <p> I am a future junior frontend web developer.</p>
-                        <p>But for now, I work at Banca Transilvania as Relationship Manager</p>
+                        <p>I am a professional with over 7 years of experience in the banking system.</p>
+                        <p>I am very enthusiastic about pursuing a career in web development,but for now, I work as Relationship Manager at Banca Transilvania.</p>
+                        
                         <ul>
                             <li>
                                 <b>Full Name</b>
