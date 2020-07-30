@@ -37,7 +37,7 @@ class AboutPage extends React.Component {
                             </li>
                             <li>
                                 <b>Adress</b>
-                            17 Sesul de Sus Street,Floresti,Cluj
+                            17 Sesul de Sus Street, Floresti, Cluj
                             </li>
                         </ul>
                         <a className="btn-pdf" href={require('../Images-container/myCV.pdf')} download="cv-besa-alex">Download my CV</a>
