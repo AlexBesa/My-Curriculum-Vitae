@@ -60,7 +60,7 @@ class ResumePage extends React.Component {
                             <p>Web Concepts: How the web works, Client-Server architecture,protocols;</p>
                             <p>HTTP: fundamentals about the protocol: methods, status codes,headers, cookies and sessions;</p>
                             <p>HTML and CSS: how to build a responsive User Interface with semantic HTML elements;</p>
-                            <p>JavaScript: how to use variables, primitive types, functions, hoisting,objects, scope, DOM, AJAX, Promises;</p>
+                            <p>JavaaScript: how to use variables, primitive types, functions, hoisting, objects, scope, DOM, AJAX, Promises;</p>
                             <p>OOP in JavaScript: prototypes, classes and inheritance in JavaScript;</p>
                             <p>GIT: learned the principles and basic commands;</p>
                             <p>jQuery: how to include it in a project and how to use it, why it’s helpful, selectors;</p>

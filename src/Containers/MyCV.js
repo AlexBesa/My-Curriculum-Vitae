@@ -8,7 +8,7 @@ import ContactPage from '../Containers/ContactPage/ContactPage';
 import PortofoliosPage from '../Containers/PortofoliosPage/PortofoliosPage';
 import ResumePage from '../Containers/ResumePage/ResumePage';
 import Backdrop from '../Components/Backdrop/Backdrop';
-import DrawerToogleButton from '../Components/SideDrawer/DrawerToogleButton';
+import DrawerToogleButton from '../Components/DrawerToogleButton/DrawerToogleButton';
 
 class MyCV extends Component {
     constructor(props){

@@ -3,7 +3,6 @@ import './Header.css';
 import { withRouter } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import DrawerToogleButton from '../SideDrawer/DrawerToogleButton';
 
 class Header extends React.Component {
     constructor(props) {
