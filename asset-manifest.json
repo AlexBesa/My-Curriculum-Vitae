@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Curriculum-Vitae/static/css/main.f9343f70.chunk.css",
+    "main.css": "/My-Curriculum-Vitae/static/css/main.7a620982.chunk.css",
     "main.js": "/My-Curriculum-Vitae/static/js/main.04fa90ee.chunk.js",
     "main.js.map": "/My-Curriculum-Vitae/static/js/main.04fa90ee.chunk.js.map",
     "runtime-main.js": "/My-Curriculum-Vitae/static/js/runtime-main.a763194e.js",
@@ -8,9 +8,9 @@
     "static/js/2.b9ca574b.chunk.js": "/My-Curriculum-Vitae/static/js/2.b9ca574b.chunk.js",
     "static/js/2.b9ca574b.chunk.js.map": "/My-Curriculum-Vitae/static/js/2.b9ca574b.chunk.js.map",
     "index.html": "/My-Curriculum-Vitae/index.html",
-    "precache-manifest.ea1d9e9824691bab72b04fec7576db5c.js": "/My-Curriculum-Vitae/precache-manifest.ea1d9e9824691bab72b04fec7576db5c.js",
+    "precache-manifest.69f069f848fe51b161226977e4f84a55.js": "/My-Curriculum-Vitae/precache-manifest.69f069f848fe51b161226977e4f84a55.js",
     "service-worker.js": "/My-Curriculum-Vitae/service-worker.js",
-    "static/css/main.f9343f70.chunk.css.map": "/My-Curriculum-Vitae/static/css/main.f9343f70.chunk.css.map",
+    "static/css/main.7a620982.chunk.css.map": "/My-Curriculum-Vitae/static/css/main.7a620982.chunk.css.map",
     "static/js/2.b9ca574b.chunk.js.LICENSE.txt": "/My-Curriculum-Vitae/static/js/2.b9ca574b.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/My-Curriculum-Vitae/static/media/avatar.aaa2f7b0.jpg",
     "static/media/batman.JPG": "/My-Curriculum-Vitae/static/media/batman.a2ccfca4.JPG",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.a763194e.js",
     "static/js/2.b9ca574b.chunk.js",
-    "static/css/main.f9343f70.chunk.css",
+    "static/css/main.7a620982.chunk.css",
     "static/js/main.04fa90ee.chunk.js"
   ]
 }
