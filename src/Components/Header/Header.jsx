@@ -3,11 +3,19 @@ import './Header.css';
 import { withRouter } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import DrawerToogleButton from '../SideDrawer/DrawerToogleButton';
 
 class Header extends React.Component {
-    
-    
+    constructor(props) {
+        super(props);
+        this.state = {
+            headerClass : null
+        }
+    }
+
     handleHomeClick = () => {
+        console.log('this.props.hide',this.props.hideDrawer)
+        
         this.props.history.push(
             {
                 pathname: `/HomePage`,
@@ -18,12 +26,13 @@ class Header extends React.Component {
     handleResume = () => this.props.history.push(`/ResumePage`);
     handlePortofolios = () => this.props.history.push(`/PortofoliosPage`);
     handleContact = () => this.props.history.push(`/ContactPage`);
-    
 
+    // getClass = () => this.props.show ? this.headerClass = 'header open': this.headerClass = 'header';
 
     render() {
+        this.props.showHeader ? this.headerClass = 'header open': this.headerClass = 'header';
         return (
-            <div className='header'>
+            <div className={this.headerClass}>
                 <div className='header-image'>
                     <img
                         className='header-image-avatar'
@@ -40,12 +49,13 @@ class Header extends React.Component {
                     <li onClick={this.handleContact}>CONTACT</li>
 
                 </ul>
-                <p className='header-copyright'>Made with <span><FontAwesomeIcon 
-                            icon={faHeart}
-                            fixedWidth 
-                            size="lg"
-                            color='red'
-                        /></span> by Alexandru Besa</p>
+                <p className='header-copyright'>Made with <span><FontAwesomeIcon
+                    icon={faHeart}
+                    fixedWidth
+                    size="lg"
+                    color='red'
+                /></span> by Alexandru Besa
+                </p>
             </div>
         )
     }

@@ -23,14 +23,14 @@ class PortofolioCard extends React.Component {
                     target="_blank"
                     href={linkGitPage}
                 >
-                    Go to Application
+                    View Live Version
                 </a>
                 <a
                     rel="noopener noreferrer"
                     target="_blank"
                     href={gitCode}
                 >
-                    See the Code
+                    View on Github
                 </a>
             </div>
         )

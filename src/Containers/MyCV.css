@@ -19,3 +19,19 @@
     width: 100%;
     margin-left:250px;
 }
+.header-toogle-btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+@media (max-width: 768px) {
+    .myCv, .myCv-pages{
+        margin-left:0;
+    }
+}
+@media (min-width:769px) {
+    .header-toogle-btn{
+        display:none
+    }
+}

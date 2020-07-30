@@ -9,15 +9,15 @@ class AboutPage extends React.Component {
             <div className='aboutPage'>
                 <h1>About Me</h1>
                 <div className='aboutPage-content'>
-                    <div>
-                        <img className='aboutPage-image' src={require('../Images-container/myPhoto.jpg')} alt="photoMe" />
-
+                    <div className='aboutPage-img-div'>
+                        <img className='aboutPage-image' src={require('../Images-container/myPhoto2.jpg')} alt="photoMe" />
                     </div>
                     <div className='aboutPage-content-details'>
                         <h3>My name is Alexandru Besa</h3>
                         <p>I am a professional with over 7 years of experience in the banking system.</p>
-                        <p>I am very enthusiastic about pursuing a career in web development,but for now, I work as Relationship Manager at Banca Transilvania.</p>
-                        
+                        <p>I am very enthusiastic about pursuing a career in web development and for now, 
+                            I work as Relationship Manager at Banca Transilvania.</p>
+
                         <ul>
                             <li>
                                 <b>Full Name</b>
@@ -52,8 +52,10 @@ class AboutPage extends React.Component {
                             alt="avatar"
                         />
                         <h5>My Family</h5>
-                        <p>This is my beautiful family...I am a future junior frontend web developer.
-                    I can provide clean code and pixel perfect design.</p>
+                        <p>This is my beautiful family, my lovely wife Adelina and my two
+                        beautiful children Gloria and Tudor.The memories we make with
+                        our family is everything.
+                        </p>
                     </div>
                     <div className="services-div">
                         <img
@@ -62,8 +64,8 @@ class AboutPage extends React.Component {
                             alt="avatar"
                         />
                         <h5>My Work</h5>
-                        <p>This is my work..I am a future junior frontend web developer.
-                    I can provide clean code and pixel perfect design.</p>
+                        <p>This is my work. I work as Relationship Manager at Banca Transilvania
+                            where I manage the retail business, being equally responsible for sales and lending.</p>
                     </div>
                     <div className="services-div">
                         <img
@@ -71,9 +73,9 @@ class AboutPage extends React.Component {
                             src={require('../Images-container/js.png')}
                             alt="avatar"
                         />
-                        <h5>My New Hobby</h5>
-                        <p>This is my hobyy...I am a future junior frontend web developer.
-                    I can provide clean code and pixel perfect design.</p>
+                        <h5>My New Passion</h5>
+                        <p>Out of the desire to get out of the comfort zone, I started learning programming and
+                             when I came across Js and React I realized that I found my vocation</p>
                     </div>
                 </div>
             </div>

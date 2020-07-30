@@ -19,7 +19,7 @@ class ContactPage extends React.Component {
                         /></span>
                         <div className='contact-content'>
                             <h4>Adress</h4>
-                            <p>17 Sesul de Sus Street,Floresti,Cluj</p>
+                            <p>17 Sesul de Sus Street, Floresti, Cluj</p>
                         </div>
                     </div>
                     <div className='contact-info-block'>

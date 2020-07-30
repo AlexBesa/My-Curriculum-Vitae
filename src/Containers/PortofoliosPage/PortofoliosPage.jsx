@@ -11,9 +11,10 @@ class PortofoliosPage extends React.Component {
                 {
                     title: 'Batman Forever',
                     description: ' This is a team project made with React Js. We built the front-end part of an IMBD like application (using a provided API)',
-                    linkGit: 'https://alexbesa.github.io/Cookies-and-LocalStorage-Example/.',
+                    // linkGit: 'https://alexbesa.github.io/IMDB-final-team-project/',
+                    linkGit: 'https://fazakasalexandra.github.io/batimdb/',
                     poster: require('../Images-container/batman.JPG'),
-                    gitCode: 'https://github.com/AlexBesa/Cookies-and-LocalStorage-Example'
+                    gitCode: 'https://github.com/AlexBesa/IMDB-final-team-project'
                 },
                 {
                     title: 'Player vs Obstacles',

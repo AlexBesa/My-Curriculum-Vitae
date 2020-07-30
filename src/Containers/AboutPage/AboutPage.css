@@ -10,24 +10,28 @@
 .aboutPage>h1{
     display: flex;
     font-size: 3rem;
-    text-align: left;
+    justify-content: center;
     margin-top: 1em;
 
 }
 .aboutPage-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.aboutPage-image{
+.aboutPage-img-div{
     display: flex;
-    width: 25rem;
-    vertical-align: middle;
-    max-height: 100%;
+    align-content: flex-start;
+    /* vertical-align: middle; */
     cursor:pointer ;
+    margin: 1em auto;
+}
+.aboutPage-image{
+    max-width: 28rem;
+    max-height: 100%;
     transition: transform 450ms;
-    box-shadow: 7px 7px 20px rgba(238, 227, 227, 0.9);
+    box-shadow: 1px 1px 12px rgba(130, 259, 242, 0.7);
 }
 .aboutPage-image:hover{
     transform: scale(1.08);
@@ -35,9 +39,13 @@
 .aboutPage-content-details{
     display: flex;
     flex-direction: column;
-    margin-right: 5em;
+    align-content: center;
+    /* margin-right: 5em; */
     padding: 0.1em 1em;
     max-width: 25em;
+}
+.aboutPage-content-details>p{
+    text-align: justify;
 }
 .aboutPage-content-details ul{
     padding: 0;
@@ -91,7 +99,7 @@
     justify-content: space-evenly;
     width: 100%;
     text-align: center;
-    margin:1em -1em;
+    margin:1em 0;
 }
 .services-div{
     display: flex;
@@ -102,9 +110,6 @@
     padding: 1em 2em;
     align-content: center;
     width: 15em;
-    
-    
-    
 }
 .services-div img{
     align-self: center;
@@ -118,4 +123,21 @@
 }
 .services-div img:hover{
     transform: scale(1.05);
+}
+.services-div>p{
+    text-align: justify;
+}
+.services-div>h5{
+    font-size: 1.3em;
+    margin-bottom: 0.1em;
+}
+.aboutPage-content-details>h3,
+.aboutPage-content-details>p{
+    margin-bottom: 0.1em;
+}
+@media(max-width : 360px){
+    .aboutPage-image{
+        max-width: 20rem;
+
+    }
 }
