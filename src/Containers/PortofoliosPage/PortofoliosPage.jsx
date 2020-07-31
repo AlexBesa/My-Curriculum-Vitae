@@ -12,7 +12,7 @@ class PortofoliosPage extends React.Component {
                     title: 'Batman Forever',
                     description: ' This is a team project made with React Js. We built the front-end part of an IMBD like application (using a provided API)',
                     // linkGit: 'https://alexbesa.github.io/IMDB-final-team-project/',
-                    linkGit: 'https://fazakasalexandra.github.io/batimdb/',
+                    linkGit: 'https://alexbesa.github.io/myIMDB/.',
                     poster: require('../Images-container/batman.JPG'),
                     gitCode: 'https://github.com/AlexBesa/IMDB-final-team-project'
                 },
@@ -33,7 +33,7 @@ class PortofoliosPage extends React.Component {
                 {
                     title: 'My Robofriends',
                     description: 'This is my first app made in React Js using a provided API. You can search my friend after name',
-                    linkGit: 'alexbesa.github.io/myrobofriends/',
+                    linkGit: 'https://alexbesa.github.io/MyRoboFriends/',
                     poster: require('../Images-container/robo.JPG'),
                     gitCode: 'https://github.com/AlexBesa/MyRoboFriends'
                 },
