@@ -1,7 +1,7 @@
 {
   "name": "my-cv",
   "version": "0.1.0",
-  "homepage": "https://AlexBesa.github.io/HomePage",
+  "homepage": "https://AlexBesa.github.io/MyResume",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",

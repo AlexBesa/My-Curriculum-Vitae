@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 import MyCV from './Containers/MyCV'
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
     <div className='myApp'>
       <MyCV /> 
     </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
