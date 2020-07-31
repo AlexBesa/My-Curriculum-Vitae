@@ -13,18 +13,26 @@ class Header extends React.Component {
     }
 
     handleHomeClick = () => {
-        console.log('this.props.hide',this.props.hideDrawer)
-        
+        this.props.hideHeader();
         this.props.history.push(
             {
                 pathname: `/HomePage`,
             }
         );
     }
-    handleAbout = () => this.props.history.push(`/AboutPage`);
-    handleResume = () => this.props.history.push(`/ResumePage`);
-    handlePortofolios = () => this.props.history.push(`/PortofoliosPage`);
-    handleContact = () => this.props.history.push(`/ContactPage`);
+    handleAbout = () => {
+        this.props.hideHeader();
+        this.props.history.push(`/AboutPage`)
+    };
+    handleResume = () => {
+        this.props.hideHeader();
+        this.props.history.push(`/ResumePage`)};
+    handlePortofolios = () => {
+        this.props.hideHeader();
+        this.props.history.push(`/PortofoliosPage`)};
+    handleContact = () => {
+        this.props.hideHeader();
+        this.props.history.push(`/ContactPage`)};
 
     // getClass = () => this.props.show ? this.headerClass = 'header open': this.headerClass = 'header';
 

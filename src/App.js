@@ -6,7 +6,7 @@ import MyCV from './Containers/MyCV'
 
 function App() {
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter>
     <div className='myApp'>
       <MyCV /> 
     </div>

@@ -19,7 +19,7 @@ class MyCV extends Component {
     }
     
 
-    headerToogleClickhandler = () => {
+    headerToggleClickhandler = () => {
         this.setState((prevState) => {
             return {sideHeaderOpen: !prevState.sideHeaderOpen}
         })
@@ -39,10 +39,11 @@ class MyCV extends Component {
         return (
             <div className='myCv'>
                 <div className='header-toogle-btn'>
-                    <DrawerToogleButton click={this.headerToogleClickhandler}/>
+                    <DrawerToogleButton click={this.headerToggleClickhandler}/>
                 </div>
                 <Header 
                 showHeader={this.state.sideHeaderOpen}
+                hideHeader={this.backdropClickHandler}
                 />
                 {backdrop}
                 <Switch className='myCv-pages'>
