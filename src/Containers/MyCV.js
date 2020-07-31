@@ -46,9 +46,9 @@ class MyCV extends Component {
                 />
                 {backdrop}
                 <Switch className='myCv-pages'>
-                    <Route path='/' exact component={HomePage} />
                     <Route path='/HomePage' component={HomePage} />
                     <Route path='/AboutPage' component={AboutPage} />
+                    <Route path='/' exact component={HomePage} />
                     <Route path='/ContactPage' component={ContactPage} />
                     <Route path='/PortofoliosPage' component={PortofoliosPage} />
                     <Route path='/ResumePage' component={ResumePage} />
