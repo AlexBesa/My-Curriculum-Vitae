@@ -9,9 +9,15 @@ class PortofoliosPage extends React.Component {
         this.state = {
             portofolioList: [
                 {
+                    title: 'Weather',
+                    description: 'This web application brings weather information from a certain city (using a provided API)',
+                    linkGit: 'https://alexbesa.github.io/WeatherApi/.',
+                    poster: require('../Images-container/weather.JPG'),
+                    gitCode: 'https://github.com/AlexBesa/WeatherApi'
+                },
+                {
                     title: 'Batman Forever',
                     description: ' This is a team project made with React Js. We built the front-end part of an IMBD like application (using a provided API)',
-                    // linkGit: 'https://alexbesa.github.io/IMDB-final-team-project/',
                     linkGit: 'https://alexbesa.github.io/myIMDB/.',
                     poster: require('../Images-container/batman.JPG'),
                     gitCode: 'https://github.com/AlexBesa/IMDB-final-team-project'

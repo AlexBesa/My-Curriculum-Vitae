@@ -1,9 +1,9 @@
 import React from 'react';
 import './PortofolioCard.css';
 
-const PortofolioCard  = props => {
+const PortofolioCard = props => {
     // console.log('this.props carddd ',props)
-    const { poster, title, description,linkGitPage,gitCode } = props;
+    const { poster, title, description, linkGitPage, gitCode } = props;
     return (
         <div className='portofolio-card'>
             <img
